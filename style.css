@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+.container
+{
+  background: #2B2922;
+    color: #fff;
+    font-size: 16px;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+[aria-label="navbar"]
+{
+  padding: 30px;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 150px;
+  color: #ffffff;
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+}
+.list li{
+  margin: 5px 10px;
+  padding: 15px;
+}
+.list li:nth-child(1)
+{
+  font-weight: 700;
+}
+.button-small{
+  padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 60px;
+    background-color: transparent;
+    border-radius: 14px;
+    color: #A08F36;
+    border: 1px solid #A08F36;
+    font-weight: 600;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+[src="./assets/justice.jpg"] {
+  width: 100%;
+}
+.hero{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero-heading
+{
+  width: 50%;
+  font-size: 64px;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-body
+{
+  width: 30%;
+    text-align: left;
+    font-size: 19px;
+    margin-left: 0;
+    margin-right: auto;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.bottom
+{
+  position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.button-large-prev, .button-large-next
+{
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+}
